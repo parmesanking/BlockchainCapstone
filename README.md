@@ -2,19 +2,21 @@
 
 The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
 
-# instructions to run test:  
+# Instructions to run tests:  
 
+```
 cd eth-contracts
 npm install
 make sure you have ganache-cli running 
 ```
-ganache-cli -a 50 -e 100
 ```
-
+ganache-cli -a 50 -e 1000 -p 8545
+```
+```
 truffle test test/TestSolnSquareVerifier.js 
 truffle test test/TestSquareVerifier.js 
 truffle test test/TestERC721Mintable.js 
-
+```
 #  Deployed contract references:
  
 
